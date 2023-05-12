@@ -1,0 +1,24 @@
+new nest-code 
+npm 
+$ cd nest-code
+$ npm run start
+to create controller : nest g controller users
+import Get and add this apis
+  @Get()
+  userinfo(): string {
+    return 'USER  PAGE';
+  }
+  @Get('history')
+  userHistory(): object {
+    return { id: 1, text: 'sejal' };
+  }
+
+test controller/api/
+to craete module : nest g module employee
+nest g module employee/roles
+
+to create service : nest g controller blogs
+............
+https://www.youtube.com/watch?v=xbGsVxEICBQ&list=PLolI8AY2AS9aSTUPvXrQNBGR8S4J4dAdx&index=5
+
+https://www.youtube.com/playlist?list=PLolI8AY2AS9aSTUPvXrQNBGR8S4J4dAdx
